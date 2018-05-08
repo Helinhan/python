@@ -6,6 +6,7 @@
 5、初始化仓库
     1->切换到项目目录下
     2->git init
+    3->git init --bare <anme.git>
 6、添加文件到仓库
     1->git add 文件名
 7、查看仓库下文件是否可提交 git status   加-s查看所有文件状态
