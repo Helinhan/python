@@ -30,5 +30,10 @@
 16、rebase
 
 $ git remote add origin ssh://helinhan:hejialing1314@47.95.199.76/code/test.git
-tail -f nohup.out
-    
+
+nohup java -jar cloud-0.0.1.jar &//启动守护进程
+
+tail -f nohup.out//查询日志
+ps -aux//查询进程号
+
+kill <进程号>
