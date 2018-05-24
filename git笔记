@@ -29,8 +29,10 @@
     报错CONFILT 需要人工合并
 16、rebase
 
-$ git remote add origin ssh://helinhan:hejialing1314@47.95.199.76/code/test.git
-
+添加远程仓库
+git remote add origin ssh://helinhan:hejialing1314@47.95.199.76/code/test.git 
+修改远程仓库
+git remote set-url origin git@192.168.1.18:mStar/OTT-dual/K3S/supernova
 nohup java -jar cloud-0.0.1.jar &//启动守护进程
 
 tail -f nohup.out//查询日志
